@@ -13,7 +13,8 @@ const useStyles = makeStyles((theme: Theme)=>createStyles({
         // display: 'flex',
         paddingTop: 10,
         // position: 'relative',
-        backgroundColor: '#f0f2f5'
+        backgroundColor: '#f0f2f5',
+        paddingBottom: '5%',
     },
     container:{
         maxWidth: 1440
@@ -35,7 +36,7 @@ const useStyles = makeStyles((theme: Theme)=>createStyles({
         borderRadius: 75,
         width: 125,
         position: 'relative',
-        marginRight: 32
+        zIndex: 0
     },
     headLine:{
         textTransform: 'capitalize',
@@ -63,6 +64,7 @@ const useStyles = makeStyles((theme: Theme)=>createStyles({
     }
         
 }))
+
 export const Section2 = () => {
     const classes= useStyles();
     return (

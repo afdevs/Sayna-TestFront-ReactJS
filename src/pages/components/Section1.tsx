@@ -56,8 +56,8 @@ const useStyles = makeStyles((theme: Theme)=>createStyles({
         position: 'absolute',
         top: 24,
         right: 23,
-        zIndex: 3,
-        opacity: 0.5
+        zIndex: 0,
+        opacity: 0.3
     },
     servicesList:{
         marginTop: 50,

@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme: Theme)=>createStyles({
         overflow: 'hidden'
     },
     appBar:{
-        zIndex: '2!important' as any
+        zIndex: '4!important' as any
     },
     toolbar:{
         background: '#fffffe',
