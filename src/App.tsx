@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import { Layout } from './pages/components/layouts/Layout';
 import { Section1 } from './pages/components/Section1';
+import { Section2 } from './pages/components/Section2';
 
 function App() {
   const theme = createTheme({
@@ -39,6 +40,7 @@ function App() {
       <CssBaseline/>
       <Layout>
         <Section1/>
+        <Section2/>
       </Layout>
     </BrowserRouter>
 

@@ -51,14 +51,14 @@ const useStyles = makeStyles((theme: Theme)=>createStyles({
         color: '#605a60!important' as any,
         fontWeight: 'bold!important' as any
     },
-    bigLine:{
-        fontWeight: 'bold!important' as any,
-        fontSize: '4em!important' as any
-    },
     bottomLine:{
         fontWeight: 'bold!important' as any,
         fontSize: '2.5em!important' as any,
         marginBottom: '10px!important' as any
+    },
+    bigLine:{
+        fontWeight: 'bold!important' as any,
+        fontSize: '4em!important' as any
     },
     banner:{
         width: '55%',

@@ -9,8 +9,9 @@ const useStyles = makeStyles((theme: Theme)=>createStyles({
         marginTop: '5%',
         display: 'flex',
         paddingTop: 70,
-        position: 'relative'
-        },
+        position: 'relative',
+        maxHeight: 787
+    },
     banner:{
         width: '100%',
         // position: 'absolute',
@@ -56,6 +57,7 @@ const useStyles = makeStyles((theme: Theme)=>createStyles({
         top: 24,
         right: 23,
         zIndex: 3,
+        opacity: 0.5
     },
     servicesList:{
         marginTop: 50,
@@ -76,7 +78,7 @@ const useStyles = makeStyles((theme: Theme)=>createStyles({
         width: '93%',
         alignItems: 'center',
         marginTop: 25,
-        marginBottom: 25,
+        marginBottom: 25
     }
 }))
 export const Section1 = () => {
